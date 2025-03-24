@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "researcher-writer-agent"
+version = "0.1.0"
+description = ""
+authors = ["krawcts <lucassampaio22k@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.10"
+crewai = "^0.108.0"
+crewai-tools = "^0.38.1"
+langchain-community = "^0.3.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
